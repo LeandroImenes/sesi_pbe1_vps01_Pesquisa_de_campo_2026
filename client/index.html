@@ -10,22 +10,22 @@
     <h1><center>Cadastro de IAs</center></h1>
     <center><form action="http://localhost:3000/ia" method="post">
         <label>Sistema: </label>
-        <input type="text" name="sistema"><br><br>
+        <input type="text" name="sistema" required><br><br>
         <label>Tipo: </label>
-        <input type="text" name="tipo"><br><br>
+        <input type="text" name="tipo" required><br><br>
         <label>Finalidade: </label>
-        <textarea name="finalidade"></textarea><br><br>
+        <textarea name="finalidade" required></textarea><br><br>
         <label>Tecnologia: </label>
-        <input type="text" name="tecnologias"><br><br>
+        <input type="text" name="tecnologias" required><br><br>
         <label>Nível de risco</label>
-        <select name="nivel_de_risco">
+        <select name="nivel_de_risco" required>
             <option value="baixo">Baixo</option>
             <option value="medio">Médio</option>
             <option value="alto">Alto</option>
             <option value="muitoAlto">Muito alto</option>
         </select><br><br>
         <label>Possui revisão humana: </label>
-        <select name="possui_revisao_humana">
+        <select name="possui_revisao_humana" required>
             <option value="sim">Sim</option>
             <option value="nao">Não</option>
         </select><br><br>
