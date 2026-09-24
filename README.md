@@ -20,3 +20,20 @@ npm run dev
 <br>
 ## Prints dos testes e exemplos de requisições
 - CREATE (POST)
+<img src="Fotos/post.png">
+- READ ALL (GET)
+<img src="Fotos/get.png">
+- READ Id
+<img src="Fotos/getId.png">
+- READ Tipo
+<img src="Fotos/getTipo.png">
+- READ Risco
+<img src="Fotos/getRisco.png">
+- UPDATE (PUT)
+<img src="Fotos/put.png">
+- DELETE
+<img src="Fotos/delete.png">
+
+<br>
+
+## Cliente
