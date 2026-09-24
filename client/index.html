@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>Cadastro de IAs</center></h1>
+    <center><form action="http://localhost:3000/ia" method="post">
+        <label>Sistema: </label>
+        <input type="text" name="sistema"><br><br>
+        <label>Tipo: </label>
+        <input type="text" name="tipo"><br><br>
+        <label>Finalidade: </label>
+        <textarea name="finalidade"></textarea><br><br>
+        <label>Tecnologia: </label>
+        <input type="text" name="tecnologias"><br><br>
+        <label>Nível de risco</label>
+        <select name="nivel_de_risco">
+            <option value="baixo">Baixo</option>
+            <option value="medio">Médio</option>
+            <option value="alto">Alto</option>
+            <option value="muitoAlto">Muito alto</option>
+        </select><br><br>
+        <label>Possui revisão humana: </label>
+        <select name="possui_revisao_humana">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select><br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </center></form>
+</body>
+</html>
