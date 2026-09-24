@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(4, 18, 79);
+    color: white;
+}
+h1{
+    margin-bottom: 20px;
+}
+button{
+    color: white;
+    background-color: rgb(8, 95, 176);
+    border-radius: 3px;
+    border: none;
+    width: 70px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+button:hover{
+    transform:  scale(1.05);
+}
+button:active{
+    transform: scale(0.95);
+}
+textarea,
+select,
+input{
+    border-radius: 4px;
+}
