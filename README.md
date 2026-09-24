@@ -41,3 +41,6 @@ npm run dev
 <br>
 
 ## Cliente
+<img src="Fotos/cadastro.png">
+Resposta:
+<img src="Fotos/local.png">
